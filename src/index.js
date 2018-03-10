@@ -7,9 +7,9 @@ const app = express()
 
 app.use(express.static('public'))
 app.get('/', (req, res) => {
-    const content = renderToString(<Home />)
+  const content = renderToString(<Home />)
 
-    const html = `
+  const html = `
         <html>
             <head></head>
             <body>
@@ -19,9 +19,9 @@ app.get('/', (req, res) => {
         </html>
     `
 
-    res.send(html)
+  res.send(html)
 })
 
 app.listen(3000, () => {
-    console.log('Listen on port 3000')
+  console.log('Listen on port 3000')
 })

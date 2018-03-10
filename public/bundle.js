@@ -21182,7 +21182,7 @@ module.exports = function() {
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _react = __webpack_require__(4);
@@ -21192,22 +21192,22 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Home = function Home(_) {
-    return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-            'div',
-            null,
-            'I\'m the BEST home componenet'
-        ),
-        _react2.default.createElement(
-            'button',
-            { onClick: function onClick(_) {
-                    return console.log('lek');
-                } },
-            ' Press me '
-        )
-    );
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'div',
+      null,
+      'I\'m the BEST home componenet'
+    ),
+    _react2.default.createElement(
+      'button',
+      { onClick: function onClick(_) {
+          return console.log('lek');
+        } },
+      ' Press me '
+    )
+  );
 };
 
 exports.default = Home;
